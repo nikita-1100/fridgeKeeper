@@ -20,5 +20,8 @@ public class Food extends BaseEntityWithBarcode{
     @Column(name="calories")
     private Float calories;
 
+    @Column(name="standard")
+    private Boolean standard;
+
 
 }
